@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(100deg,#0a1214,#201d32  );
+    color:aqua;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+height:80vh;
+margin:0;
+
+
+
+}
+.container{
+    text-align: center;
+    background:rgba(11, 18,20,0.7);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #7544d1,0 0 50px #b495f1;
+}
+#clock{
+    font-size:4rem;
+    letter-spacing: 8px;
+    display:flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 450px;
+}
+.colon{
+    color:#b495f1
+
+}
+#format{
+    font-size: 2rem;
+    margin-top: 15px;
+    color:rgb(93, 53, 174)
+}
+#date{
+    font-size: 2rem;
+    margin-top: 15px;
+    color: #b495f1;
+}
